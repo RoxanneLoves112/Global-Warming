@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Global Warming-Resources</title>
+</head>
+
+
+<body>
+    <header>
+        <!--navigation for website links-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="logo" width="40px" height="40px" title="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="facts.html">Facts</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="resources.html">Resources</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    </header>
+
+    <main>  <!--the actual contents of this webpage-->
+        <img class="background-image" src="images/hugeIce.jpg">        
+        <div class="container">
+            <div class="col-lg-12">
+        <h1>Resources</h1>
+        <p>This page provides you with other online web resources on the issue of global warming, you can click on the links to explore other websites.</p>
+        </div></div>
+
+
+
+
+
+        <!--section #1-->
+        <div class="colored">
+        <div class="container">
+            <div class="col-lg-12">
+                <h2>Explore other websites about global warming</h2>
+            </div>
+            <input id="myInput1" onkeyup="filterTable()" placeholder="Search for names..">
+            <table id="webApp"><!--a table providing resources about relevant websites--><tr>
+                    <th>Logo</th>
+                    <th>Name</th>
+                    <th>Detail</th>
+                </tr>
+                <tr>
+                    <div class="col-lg-2"><td class="imgs"><img src="images/yale.jpg" alt="yale"></td></div>                    
+                    <div class="col-lg-4"><td class="name"><a href="https://www.yaleclimateconnections.org">The Yale Forum on Climate Change &amp; The Media</a></td></div>
+                    <div class="col-lg-6"><td class="detail"><p>It looks at the sometimes-problematic relationship between the media and how it affects the debate on climate change.</p></td></div>
+                </tr>
+                <tr>
+                    <div class="col-lg-2"><td class="imgs"><img src="images/guardian.jpg" alt="guardian"></td></div>
+                    <div class="col-lg-4"><td class="name"><a href="https://www.theguardian.com/us/environment">The Guardian Environment</a></td></div>
+                    <div class="col-lg-6"><td class="detail"><p>A concise and well presented collection of news reports about the environment, climate change, green living and many more topics. </p></td></div>
+                </tr>
+                <tr>
+                    <div class="col-lg-2"><td class="imgs"><img src="images/energy.jpg" alt="energy"></td></div>
+                    <div class="col-lg-4"><td class="name"><a href="http://www.energysavingtrust.org.uk">Energy Saving Trust</a></td></div>
+                    <div class="col-lg-6"><td class="detail"><p>The Energy Saving Trust aims to help fight climate change by promoting the sustainable use of energy and to cut carbon dioxide emissions.</p></td></div>
+                </tr>
+                <tr>
+                    <div class="col-lg-2"><td class="imgs"><img src="images/skeptical.jpg" alt="skeptical"></td></div>
+                    <div class="col-lg-4"><td class="name"><a href="https://skepticalscience.com">Skeptical Sciense</a></td></div>
+                    <div class="col-lg-6"><td class="detail"><p>Skeptical Science presents the broader picture of climate change by using only peer reviewed science and busting every climate denial myth along the way!</p></td></div>
+                </tr>
+                <tr>
+                    <div class="col-lg-2"><td class="imgs"><img src="images/grist.jpg" alt="grist"></td></div>
+                    <div class="col-lg-4"><td class="name"><a href="https://grist.org">Grist</a></td></div>
+                    <div class="col-lg-6"><td class="detail"><p>Grist is a US-based (but nevertheless relevant and always entertaining) source of "intelligent, irreverent environmental news and commentary."</p></td></div>
+                </tr>
+            </table>
+            <p id="click">Click to sort the table alphabetically, by name:&emsp;<button onclick="sortTable()">Sort</button></p>
+        </div>
+    </div>
+   
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+<!--contact information provided at the bottom-->
+<footer>
+    <div class="container">
+        <div class="col-lg-12">
+            <h1 id="contact">Contact Me</h1>
+            <form>
+              First Name:<br>
+              <input type="text" name="firstname"><br>
+              Last Name:<br>
+              <input type="text" name="lastname"><br>
+              Comments:<br>
+              <input type="text" name="comments">
+            </form>
+            <br>
+            <input type="submit" value="Submit">
+            <br>
+            <br>
+            <p>Have any questions or suggestions about this website? Feel free to <a href="mailto:chentinz@andrew.cmu.edu"> email </a> me :) You can also find me at CMU.</p>
+        </div>
+        <div class="col-lg-4 offset-lg-4 col-md-8 offset-md-2 col-sm-12 col-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.466438898053!2d-79.94520148495748!3d40.44281216197736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f21f58679a9f%3A0x88716b461fc4daf4!2sCarnegie+Mellon+University!5e0!3m2!1sen!2sus!4v1505100521221" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <h5 id="copyright">&copy; 2018 Roxanne Zhang</h5>
+</footer>
+<script type="text/javascript" src="javascript.js"></script>
+</html>

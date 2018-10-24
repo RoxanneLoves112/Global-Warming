@@ -1,0 +1,507 @@
+* {
+	font-family: "PT Serif","PT Sans";
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*The navigation bar shown at the top of each page*/
+.navbar {
+  border-bottom: 1px solid #6f6f6f;
+}
+
+.navbar a {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.background-image{
+	width:100%;
+}
+
+
+.colored_1{
+	background-color: rgba(197,213,203,0.4);
+}
+
+.colored_2{
+    background-color: rgba(159,168,163,0.4);
+}
+
+.colored_3{
+    background-color: rgba(227,224,207,0.4);
+
+}
+
+
+
+#myInput1 {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+
+#webApp {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+}
+
+#webApp th, #myTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+}
+
+#webApp tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd; 
+}
+
+
+
+#webApp tr th{
+    background-color: #f1f1f1;
+    font-size:16px;
+}
+
+
+
+/*Provides effects when texts are being selected*/
+::selection {
+    color: yellow;
+    background: #6f6f6f;
+}
+
+
+/* Styles for h1 titles*/
+.col-lg-12 h1 { 
+    text-align: center;
+	letter-spacing: 2.5px;
+	color: #3b3a36;
+	padding-top: 40px;
+	margin-top: 50px;
+}
+
+h1+p{
+    font-family: "PT Sans";
+	letter-spacing: 1px;
+	line-height: 40px;
+	color:#6d6d6d;
+	padding-top: 35px;
+	padding-bottom: 20px;
+}
+
+
+#click{
+    font-family: "PT Sans";
+    letter-spacing: 1px;
+    line-height: 40px;
+    color:#6d6d6d;
+    padding-top: 35px;
+}
+
+
+
+/*Photos displayed at the Home Page Gallery*/
+
+.desc {
+    font-family: "PT Sans";
+	line-height: 40px;
+	letter-spacing: 1.2px;
+	text-align: center;
+	color:rgb(59,59,62);
+}
+
+/* unvisited link */
+.desc a:link {
+    color: blue;
+}
+
+/* visited link */
+.desc a:visited {
+    color: purple;
+}
+
+/* mouse over link */
+.desc a:hover {
+    color: green;
+}
+
+/* selected link */
+.desc a:active {
+    color: blue;
+}
+
+figure{
+    border: 1px solid #ccc;
+}
+figure:hover {
+    border: 1px solid #777;
+    box-shadow:1px 1px 2px #000000;
+}
+
+[title *= ph] { /*for the images in the gallery*/
+    width: 100%;
+    height: auto;
+}
+
+/*Specify the style of texts, used for multiple times across pages*/
+.col-lg-12 h2 {
+    font-family: "PT Serif";
+    margin-top: 50px;
+	text-align:center;
+	letter-spacing: 2px;
+	color:#3b3a36;
+	padding-top:35px;
+	padding-bottom:15px;
+}
+
+h2+p{
+    font-family: "PT Sans";
+	letter-spacing: 1px;
+	line-height: 40px;
+	color:#6d6d6d;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+
+
+/*Facts page.*/
+
+#definition p { /*definitions of global warming*/
+    font-family: "PT Sans";
+	text-align: center;
+	padding:20px 20px 10px 20px;
+	border-top: 0.5px solid rgb(255,127,80);
+    font-size:16px;
+    color:black;
+}
+
+
+
+
+#gas dd{ 
+    font-family: "PT Sans";
+	border-style: dashed;
+    background-color:rgb(197,213,203);
+    border-color:#d3d3d3;
+    padding:10px;
+	line-height: 20px;
+}
+
+.consequences { /*table for consequences of global warming*/
+    font-family: "PT Sans";
+	text-transform: none;
+	width:75%;
+	letter-spacing: 1px;
+	padding-top:40px;
+	padding-bottom: 40px;
+	line-height: 20px;
+	font-weight: normal;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.effect { /*within the table, effects of global warming*/
+    font-family: "PT Sans";
+	margin-left:30px;
+	background: rgb(85,100,143);
+	text-align: center;
+	width: 500px;
+	height: 120px;
+	font-family: "Europa-Bold", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: white;
+	line-height:27px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-shadow: 1px 1px 2px #6f6f6f;
+}
+
+.explanation { /*within the table, explanations of effects */
+    font-family: "PT Sans";
+	background: rgb(189,199,223);
+	padding: 10px 15px 15px 10px;
+}
+
+ol li{  /*solutions to global warming*/
+    font-family: "PT Serif";
+	color: #4B0082;
+    text-shadow: 1px 1px 1px #000000;
+    list-style-position: inside;
+    margin-top: 18px;
+    letter-spacing:2px;
+    text-align: center;
+}
+
+ol p{ 
+    font-family: "PT Sans";
+	letter-spacing: 1px;
+	line-height: 30px;
+	color:#6d6d6d;
+	border-bottom: 1px solid #d4dff4;
+    padding-top:15px;
+}
+
+
+/*Resources page--tables of websites and mobile apps*/
+#webApp {
+	margin-top: 25px;
+}
+
+
+.name{
+    font-family: "PT Serif";
+	background: #9fa8a3;
+	text-align: center;
+	letter-spacing: 1.2px;
+}
+
+
+
+.detail{
+	background-color: #c5d5cb;
+}
+
+.detail p{
+    font-family: "PT Sans"; 
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.detail p::first-line {
+	color: #006400;
+    font-variant: small-caps;
+}
+
+
+#copyright{
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top:10px;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 0px) {
+	.navbar a{
+		font-size: 16px;
+	}
+
+    .col-lg-12 h1 {
+        font-size: 32px;
+    }
+
+    .col-lg-12 h1+p{
+    	font-size: 16px;
+    }
+
+    .col-lg-12 h2 {
+    	font-size: 25px;
+    }
+
+    .col-lg-12 h2+p {
+    	font-size: 16px;}
+
+    dt img {
+    	width:60%;
+    }
+
+    dd {
+    	font-size: 14px;
+    }
+
+    .col-lg-12 li {
+    	font-size: 18px;
+    }
+
+    .col-lg-12 p{
+    	font-size: 14px;
+    }
+
+    iframe {
+    	width:100%;
+    	height:250px;
+    }
+
+    .imgs img{
+    	width: 120px;
+    }
+
+    .name a {
+    	font-size: 14px;
+    }
+
+    .detail p{
+    	font-size: 14px;
+    }
+
+    .desc {
+        font-size: 14px;
+    }
+
+    .col-lg-12 form{
+        font-size: 14px;
+    }
+
+    #webApp tr th{
+        font-size:14px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width: 992px) {
+	.navbar a{
+		font-size: 18px;
+	}
+
+    .col-lg-12 h1 {
+        font-size: 35px;
+    }
+
+    .col-lg-12 h1+p{
+    	font-size: 20px;
+    }
+
+    .col-lg-12 h2 {
+    	font-size: 28px;
+    }
+
+    .col-lg-12 h2+p {
+    	font-size: 17px;}
+
+    dt img {
+    	width:40%;
+    }
+
+    dd {
+    	font-size: 16px;
+    }
+
+    .col-lg-12 li {
+    	font-size: 24px;
+    }
+
+    .col-lg-12 p{
+    	font-size: 18px;
+    }
+
+    iframe {
+    	width:100%;
+    	height:250px;
+    }
+
+    .imgs img{
+    	width: 200px;
+    }
+
+    .name a {
+    	font-size: 18px;
+    }
+
+    .detail p{
+    	font-size: 16px;
+    }
+
+    .desc {
+        font-size: 16px;
+    }
+ 
+    .col-lg-12 form{
+        font-size: 16px;
+    }
+
+    #webApp tr th{
+    font-size:15px;
+    }
+
+
+
+
+    
+}
+
+@media screen and (min-width: 1201px) {
+	.navbar a{
+		font-size: 20px;
+	}
+
+   	.col-lg-12 h1 {
+        font-size: 38px;
+    }
+
+    .col-lg-12 h1+p{
+    	font-size: 20px;
+    }
+
+    .col-lg-12 h2 {
+    	font-size: 30px;
+    }
+
+    .col-lg-12 h2+p {
+    	font-size: 19px;
+    }
+
+    dt img {
+    	width:45%;
+    }
+
+    dd {
+    	font-size: 17px;
+    }
+
+    .col-lg-12 li {
+    	font-size: 22px;
+    }
+
+    .col-lg-12 p{
+    	font-size: 18px;
+    }
+
+    iframe {
+    	width:380px;
+    	height:290px;
+    }
+
+    .imgs img{
+    	width: 200px;
+    }
+
+    .name a {
+    	font-size: 20px;
+    }
+
+    .detail p{
+    	font-size: 18px;
+    }
+
+    .desc {
+        font-size: 18px;
+    }
+
+    .col-lg-12 form{
+        font-size: 18px;
+    }
+
+    
+}
